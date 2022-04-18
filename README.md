@@ -46,7 +46,7 @@ Based on the performance time and lesser execution time with <a href='https://ww
 ```
 docker-compose up
 ```
-_Note:  It's advised to install docker if not please install dependencies and run the backend and frontend  seperately steps are given in readme.md inside backend and frontend folder._
+_Note:  It's advised to install docker if not please install dependencies and run the backend._
 
 Open [http://localhost:3000/getEmployeesData](http://localhost:3000/getEmployeesData) to view it in the browser.
 
