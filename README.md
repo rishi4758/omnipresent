@@ -7,7 +7,7 @@ Type: 'Rishav test task'
 
 ## About Omnipresent backend app
 
-The omnipresent backend app gives an api to get all the employees data along with countryName, timezone, language and currency.Although i have couple of options for the implimentation of api like imperative, declarative or lodash function.
+The omnipresent backend app gives an api (http://localhost:3000/getEmployeesData) to get all the employees data along with countryName, timezone, language and currency.Although i have couple of options for the implimentation of api like imperative, declarative or lodash function.
 Based on the performance time and lesser execution time with <a href='https://www.npmjs.com/package/api-benchmark'>api-benchmark</a>, I have used imperative coding approach which runs more then 17k operations per second.
 
 
@@ -48,7 +48,7 @@ docker-compose up
 ```
 _Note:  It's advised to install docker if not please install dependencies and run the backend and frontend  seperately steps are given in readme.md inside backend and frontend folder._
 
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:3000/getEmployeesData](http://localhost:3000/getEmployeesData) to view it in the browser.
 
 ## ⚗️ Testing
 
