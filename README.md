@@ -52,12 +52,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## ⚗️ Testing
 
-
-**Run Migrations**
-
-```
-npm run typeorm:test-migration:run
-```
 **Unit test**
 
 Run following command in your terminal to run unit tests:
