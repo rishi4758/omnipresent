@@ -8,7 +8,7 @@ Type: 'Rishav test task'
 ## About Omnipresent backend app
 
 The omnipresent backend app gives an api (http://localhost:3000/getEmployeesData) to get all the employees data along with countryName, timezone, language and currency.Although i have couple of options for the implimentation of api like imperative, declarative or lodash function.
-Based on the performance time and lesser execution time with <a href='https://www.npmjs.com/package/api-benchmark'>api-benchmark</a>, I have used imperative coding approach which runs more then 17k operations per second.
+Based on the performance testing and lesser execution time with <a href='https://www.npmjs.com/package/api-benchmark'>api-benchmark</a>, I have used imperative coding approach which runs more then 17k operations per second.
 
 
 
