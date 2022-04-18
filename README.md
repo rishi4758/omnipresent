@@ -36,7 +36,7 @@ Based on the performance time and lesser execution time with <a href='https://ww
 
 
 
-## How to spin up Meetfrank Web Scraping app
+## How to spin up Omnipresent backend app
 ## 🚀 Quick start
 
 
