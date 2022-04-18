@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  omnipresent_app_backend:
+    build: .
+    container_name: omnipresent_app_backend
+    ports:
+      - 3000:3000
+    volumes:
+      - omnipresent-backend:/data/app
+    networks:
+      - omnipresent-net
+    
+volumes:
+  omnipresent-backend:
+
+networks:
+  omnipresent-net:
+    driver: bridge
