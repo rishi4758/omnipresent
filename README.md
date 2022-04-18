@@ -49,3 +49,25 @@ docker-compose up
 _Note:  It's advised to install docker if not please install dependencies and run the backend and frontend  seperately steps are given in readme.md inside backend and frontend folder._
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+## ⚗️ Testing
+
+
+**Run Migrations**
+
+```
+npm run typeorm:test-migration:run
+```
+**Unit test**
+
+Run following command in your terminal to run unit tests:
+
+```
+npm run test
+```
+**E2E tests**
+
+
+```
+npm run test:e2e    
+```
